@@ -1,0 +1,1 @@
+{"name":"VIKI Scan Viewer","short_name":"VIKI Viewer","description":"Static tactical 3D scan viewer with local annotation tools.","start_url":"./","display":"standalone","background_color":"#0b0f0a","theme_color":"#11180f","lang":"en","scope":"./","orientation":"any","icons":[{"src":"icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}

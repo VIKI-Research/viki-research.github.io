@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "model": {
+    "name": "Windmill50k-cleaned.fbx",
+    "path": "models/windmill/Windmill50k-cleaned.fbx",
+    "source": "url",
+    "size": 9211724,
+    "type": "model/fbx",
+    "extension": "fbx"
+  },
+  "viewer": {
+    "showGrid": true,
+    "showAxes": false,
+    "showLabels": true
+  },
+  "pois": []
+}

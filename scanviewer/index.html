@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#11180f" />
+    <meta
+      name="description"
+      content="Static tactical 3D scan viewer with local model loading and NATO-style points of interest."
+    />
+    <title>VIKI Scan Viewer</title>
+    <style>
+      html, body, #root { width: 100%; height: 100%; margin: 0; background: #080c08; color: #eef3d8; }
+      .boot-status { display: grid; place-items: center; width: 100%; height: 100%; font: 700 16px system-ui, sans-serif; }
+    </style>
+    <script type="module" crossorigin src="./assets/react-DQSp_X--.js"></script>
+    <script type="module" crossorigin src="./assets/three-DtpwVpi8.js"></script>
+    <script type="module" crossorigin src="./assets/react-three-CPEuLl78.js"></script>
+    <script type="module" crossorigin src="./assets/main-DdNsCCvm.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/main-BtEgx7_R.css">
+  <link rel="manifest" href="./manifest.webmanifest"></head>
+  <body>
+    <div id="root"><div class="boot-status" role="status">Starting VIKI Scan Viewer…</div></div>
+    <script>
+      window.setTimeout(function () {
+        var status = document.querySelector(".boot-status");
+        if (status) status.textContent = "The viewer could not start. Reload once, or open this link in an updated Chrome browser.";
+      }, 10000);
+    </script>
+  </body>
+</html>
