@@ -327,5 +327,10 @@
       "color": "#1c7ed6",
       "lineWidth": 4
     }
-  ]
+  ],
+  "textureAdjustments": {
+    "brightness": 1.23,
+    "contrast": 1.59,
+    "saturation": 0.98
+  }
 }
